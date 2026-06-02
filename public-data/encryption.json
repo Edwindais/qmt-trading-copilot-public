@@ -1,0 +1,9 @@
+{
+  "encrypted": true,
+  "version": 1,
+  "alg": "AES-256-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 200000,
+  "files": 104,
+  "note": "All public-data JSON files except this metadata file are encrypted and require the site password in the browser."
+}

@@ -1,6 +1,10 @@
 {
+  "encrypted": true,
   "version": 1,
-  "mode": "github_pages_public_sanitized",
-  "generated_at": "2026-06-02 09:19:19",
-  "privacy_note": "公开版：账户资金、现金、持仓数量、成本、仓位比例、盈亏和成交数量均不导出。"
+  "alg": "AES-256-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 200000,
+  "salt": "N+7WXh1gwlpVWijU/vYp1w==",
+  "iv": "Cn7/U4LMaTR1+a/j",
+  "data": "nX40c/wAlICp79b8oecF4ORAbqBWtdrI5OErzQbgCLDF1pdynm0gyJozQZENpzITN8syekenTw2mj2nOcxpQDW3KsfXILTq0ARKuRIu4LQciUqxD9v9JoJbO9ZZSyDHFLIT3pxHlBRZgSACy/ovzxkjbzGStcxYrurmS0uWPXbRMs+WGV8u+g4XI1rUrF8zT4gNzNt6HN3KtkzclamrOpC3y0HJVRywnRwbxm/uEv3wh2ftymMvuGHd8fOc5lMtjfN38iICvzrvhG3BolL5xbwvkOocv2uCvu6pwMHKo4S1ParqCr85fveD1MjQ0pgNWcrAoyK4oBM1xGTZE"
 }

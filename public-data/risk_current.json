@@ -1,74 +1,10 @@
-[
-  {
-    "symbol": "600089",
-    "name": "特变电工",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "需复核",
-    "risk_level": "高",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "600114",
-    "name": "东睦股份",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "需复核",
-    "risk_level": "高",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "603156",
-    "name": "养元饮品",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "",
-    "risk_level": "观察",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "001203",
-    "name": "大中矿业",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "",
-    "risk_level": "观察",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "002214",
-    "name": "*ST大立",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "需复核",
-    "risk_level": "高",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "002632",
-    "name": "道明光学",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "",
-    "risk_level": "观察",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "301626",
-    "name": "苏州天脉",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "",
-    "risk_level": "观察",
-    "pnl_pct": ""
-  },
-  {
-    "symbol": "300835",
-    "name": "龙磁科技",
-    "weight": "",
-    "theme": "未分类",
-    "risk_flags": "",
-    "risk_level": "观察",
-    "pnl_pct": ""
-  }
-]
+{
+  "encrypted": true,
+  "version": 1,
+  "alg": "AES-256-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 200000,
+  "salt": "pMc2QzI0SDblrcfH78cNbw==",
+  "iv": "Jv1HJ26OBhBW8MbA",
+  "data": "0EH0u3iiWE+BpQB+swoIIaIsaJ/cFvPqcxQHakjPR8UpqNLsCj0jBU91CwtumK2hYzUAUBer8xlgfC6R4ucVL4/fYUPpBlCyl8gWACXPt3WwaYPFdvbVLkV7NcLjjGLvuN2b35ZvXkR2IVD1apGKfufSM75lwvMd5SNE5r6F477huxV+a84LjJiQ5L18C5z4CZ4jYzJKjIw24+/oRQ8Dr+DiF0CDIrpBNnxbqD5siYBJ03DetamsR5o/AbmZJglxPP0+fPAG0VquD/N+y00N5Kd+Z1XtxaYZmkopgTZlgPvAbxs39MD6lbQzUKcp5dkKoZENjYqP/sUi64PYKUiXgK63rXmZnMOpCfaBTWBHHDptxbzpVQ2dI70O79OYpnkC3ex7L37ID0ascwIOHf0v0mAGjRKait8/9CVPWDDq4sZvgmylMtkVIE1MGumm1Dy4Pt0K6iXC/n4n5Ql4HRgKtk6lxYDmaTIo3LtrohxF4jZeVRVeMRvJj9nMFM+kA06HwXRzN4YlXrjZIZ2yq+LBz75LKvxCA/leUTxfraiu6gH7PZOimqkuV1GV8tDM5TxCSv6Eg9Mrt2QrSibNh3Cj1Z6rbXEBSVcTImZ1/V1akVjJTR6G8A7mbhQwuaqESx+HsnuNlVpns48B9ERPYJon7w2xkOFcbIisLsg7B4xMF0hm+usURlOZuedyYEMUm3vZ1qbcOfOETWnvNWQHP7g1kpjJx078lNuj2PASZQT6xmHyGDCbuCV5oMLm/JfGqGOQChZ7iGhwkd1laFCNGEBxd9SR3IE35H5ErDsy2VQTQtRx4wJ+7YU3GuseBk2/YRUGxPBfa5MhOpUpOiOenMhk7pf/Gu1YLiXIJ2G/c5s3mjgF2RywrtPSdt4gwelVGdr1m3PrSh60GXhtLt4y7523bJpl/MBITsFVIoEecIakZ0FoQ2s55XXoE+Qef6YmyiiGvwCRUIGTOIQJc/sboZCXtOvv1NpgCJnMDiC98jN8gllVMPRRHj8OOsV5zjj0mCYw+l5kuW6T6tSQJPj11KZIBquLlw+wUbtm84zN+cQOOhpij0/9FmUXTA/xQoS/vxwHZAh7rVMRBGnozHq6AsCtZfRNY74UCyWls3yEKerpGUOFnsrhugbsZI29mh70Cc7u9RkpyITIzPvPRpiRkkNv9z8//VjAV8O/AkzoBT5r6atVYE2L7L8+vumM6byUiIcRAjL4fEmlepDTJOpjFxBTudU0ICfdkH8Mux2oiRPAdM3WutbkzuMXYwsAsJoZdCV5ELnDa/U20ONbgI6F9HQW50hhxd98UH0Q8vnpbdOE/t2KZXW9LUZYxvJ7BKMo5naKEUE7Oi/mmerY4ZIe69aDmsU2Zhq2GaDPG7YFWAjrJVThO8GbwAwYS6Eqt8qENFTUndC3SEhox+NtYJzPc2bUURNGtx2e+O9Fm72agZyEBLLDqGk3z/wx0bdu/iT8hm4iZJ+jokH+g3TJHYuLQvStX5FOrYozv0kFBxxYvpIs/pVfBYNkAkuW4UcDk8OA89kg3+95yBelG+DUJnma3KRtJsYUONmtNhdd1IrIjONKHftWNbE+9NtuMsKwnHkdQu7p7+cy2Ni6/kIgZkjcNnRynT7nefbKSgQ09189hb6C6nDnJnwGPZJsgtLKpT03gj4SnwQCw4dRWCCthcnmFWj8/EXDN1Jwlz5AwOAe6oG+oNZo24Kn4fgQJlkXix+iSSasRQE8CEFLGDHr7iPZ8b1HLZfh6MgUrTUqMrclctBn29ZNWxQR9XlkLJHJD5sx2a19RvmuBhO+fvaOyH7Xq3/OnnYD/9+FfgihDHGfHIMMEoZAnTRh/U7ChytNnMHA5egaQaRYogJwb7+YhbvbGQBJ8BeBPPHN6DeZswc="
+}

@@ -1,25 +1,10 @@
 {
-  "enabled": {
-    "cost_line": false,
-    "advisor_lines": false,
-    "advisor_keynotes": true,
-    "ai_operations": false,
-    "sats": true,
-    "ut_bot": true,
-    "sr": false,
-    "wavetrend": false,
-    "squeeze": false,
-    "vixfix": false,
-    "smc": false
-  },
-  "colors": {
-    "sats": "#f6c85f",
-    "ut_bot": "#7dd3fc",
-    "sr_support": "#22c55e",
-    "sr_resistance": "#ef4444",
-    "wavetrend": "#a78bfa",
-    "squeeze": "#f97316"
-  },
+  "encrypted": true,
   "version": 1,
-  "updated_at": "2026-05-31 10:17:36"
+  "alg": "AES-256-GCM",
+  "kdf": "PBKDF2-SHA256",
+  "iterations": 200000,
+  "salt": "ciSYjKMc2PwGPG5Ts/i16g==",
+  "iv": "QwEWKJIFBl+lBbF9",
+  "data": "kt64g3w21ileujBeeJnkpIhBb6k53Hl5eIvgLSk21O12SsioBOvVH5CWZYS7z0F8J8Is7qERGak6rl9e69uWJclx/8pFbjlwGzjmbHzejo/hXfdZUI+rhF5DmDCcLLFbSZCEO2fYfzIdjmSpaj00P+LNk1qeK6eRBop7wIzbtjjJL37JDdWWMs0vp+TLrB/4c5d1nYKwjA+e0f6NtkYOiYLidRlep38jlpbblDoNZIC1kAvKoI7KUq5OayYIwoKtXX3QO2IR18S71tQ+rFjGDBo4deuqhf3U0qDPJNyxgtfuHPKpb8rJ8Zvjdzs1kjo/0oUGuxUkrQ1ZKmgHk+3g5/qC7Zyx1r/NbExyj1dN7EuIB1mDQ56DJDr6jEf57WJchMwAGvGm55x602NNuu0TyDGkhMA3KyRy/SKXiuFQO7Eg7VccveM/sQpfmYHpHpXEhOKpgLL/2qFcxpP1DJY5e7PpaqSTnZDByRMd+HeCohnbrQd9GHz72fI85+HiuYG4rYGtK6OCAlssyvxOfy4mdebQTfKHbaD4L95HigFuTsM660usY4Uq0MTTfGkOVduJGaqgTMkJ91AB5oPHnryvTHPy/MHQuVpPkcStyRrTCMSs9OMEZHFg0rrU2rHWAARjcd2cGnbt80wkjpGIohFQozA8yeCxf+EmCT2oiCUkt9up88Zbjyc/6L8aVj0="
 }
