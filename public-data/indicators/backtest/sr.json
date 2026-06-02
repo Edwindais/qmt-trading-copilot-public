@@ -1,0 +1,370 @@
+{
+  "indicator_id": "sr",
+  "indicator_name": "Support / Resistance",
+  "months": 2,
+  "scope_note": "当前股票池（持仓 + 自选 + 老师建议）",
+  "window_start": "2026-04-01",
+  "window_end": "2026-06-01",
+  "methodology": [
+    "信号本身只使用当日及之前已经计算好的本地指标字段。",
+    "准确性是事后统计：观察信号出现后未来 1/3/5/10 个交易日是否沿预期方向运行。",
+    "最近几天信号如果未来 K 线不足，会标记为 pending，不计入对应周期命中率。",
+    "该统计只衡量技术指标在当前股票池的历史辅助价值，不包含公告、老师观点、筹码、情绪和流动性判断。"
+  ],
+  "indicator_summary": "统计突破压力/跌破支撑之后的短期延续性，用来评估支撑压力线是否真的有交易价值。",
+  "summary": {
+    "symbols_requested": 12,
+    "symbols_with_data": 12,
+    "total_signals": 2,
+    "buy_signals": 2,
+    "sell_signals": 0,
+    "risk_signals": 0,
+    "watch_signals": 0,
+    "false_signal_count_5d": 2,
+    "pending_signal_count_5d": 0,
+    "horizons": {
+      "1d": {
+        "horizon": 1,
+        "matured": 2,
+        "hits": 2,
+        "hit_rate": 1.0,
+        "avg_directional_return": 0.029268,
+        "avg_raw_return": 0.029268,
+        "avg_favorable_pct": 0.041319,
+        "avg_adverse_pct": -0.022383
+      },
+      "3d": {
+        "horizon": 3,
+        "matured": 2,
+        "hits": 1,
+        "hit_rate": 0.5,
+        "avg_directional_return": 0.001857,
+        "avg_raw_return": 0.001857,
+        "avg_favorable_pct": 0.054034,
+        "avg_adverse_pct": -0.031122
+      },
+      "5d": {
+        "horizon": 5,
+        "matured": 2,
+        "hits": 0,
+        "hit_rate": 0.0,
+        "avg_directional_return": -0.027943,
+        "avg_raw_return": -0.027943,
+        "avg_favorable_pct": 0.054034,
+        "avg_adverse_pct": -0.04966
+      },
+      "10d": {
+        "horizon": 10,
+        "matured": 1,
+        "hits": 1,
+        "hit_rate": 1.0,
+        "avg_directional_return": 0.01536,
+        "avg_raw_return": 0.01536,
+        "avg_favorable_pct": 0.100106,
+        "avg_adverse_pct": -0.0625
+      }
+    }
+  },
+  "by_symbol": [
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 1,
+      "buy_signals": 1,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.0,
+      "avg_directional_return_5d": -0.025953,
+      "latest_signal_date": "2026-05-08"
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 1,
+      "buy_signals": 1,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.0,
+      "avg_directional_return_5d": -0.029934,
+      "latest_signal_date": "2026-05-22"
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "002632.SZ",
+      "name": "道明光学",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    }
+  ],
+  "recent_signals": [
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "date": "2026-05-22",
+      "price": 37.75,
+      "side": "buy",
+      "label": "突破压力",
+      "field": "sr_break_resistance",
+      "condition": "sr_break_resistance=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.034702,
+          "directional_return": 0.034702,
+          "favorable_pct": 0.040795,
+          "adverse_pct": -0.036821,
+          "end_date": "2026-05-25",
+          "end_close": 39.06
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.024371,
+          "directional_return": 0.024371,
+          "favorable_pct": 0.066225,
+          "adverse_pct": -0.036821,
+          "end_date": "2026-05-27",
+          "end_close": 38.67
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.029934,
+          "directional_return": -0.029934,
+          "favorable_pct": 0.066225,
+          "adverse_pct": -0.036821,
+          "end_date": "2026-05-29",
+          "end_close": 36.62
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-08",
+      "price": 18.88,
+      "side": "buy",
+      "label": "突破压力",
+      "field": "sr_break_resistance",
+      "condition": "sr_break_resistance=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.023835,
+          "directional_return": 0.023835,
+          "favorable_pct": 0.041843,
+          "adverse_pct": -0.007945,
+          "end_date": "2026-05-11",
+          "end_close": 19.33
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.020657,
+          "directional_return": -0.020657,
+          "favorable_pct": 0.041843,
+          "adverse_pct": -0.025424,
+          "end_date": "2026-05-13",
+          "end_close": 18.49
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.025953,
+          "directional_return": -0.025953,
+          "favorable_pct": 0.041843,
+          "adverse_pct": -0.0625,
+          "end_date": "2026-05-15",
+          "end_close": 18.39
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.01536,
+          "directional_return": 0.01536,
+          "favorable_pct": 0.100106,
+          "adverse_pct": -0.0625,
+          "end_date": "2026-05-22",
+          "end_close": 19.17
+        }
+      }
+    }
+  ],
+  "analysis": [
+    "过去两个月 5 日方向命中率偏弱，单独使用容易误判，更适合作为反向复核或过滤条件。",
+    "5 日命中率=0.0%，平均方向收益=-2.79%；这个口径只评价信号后走势，不代表未来保证。",
+    "如果某只股票只有 1-2 个信号，样本太少，不要过度拟合。"
+  ],
+  "failure_analysis": [
+    "信号后 5 日平均最大反向波动约 -4.97%，说明止损/仓位控制比信号本身更重要。",
+    "公告、停复牌、ST/摘帽、老师观点更新、板块情绪突变，可能让技术指标失效。",
+    "横盘震荡会让趋势/结构类指标反复打脸；强趋势会让震荡指标过早提示超买或超卖。"
+  ],
+  "skipped": []
+}

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "sats",
+    "name": "Self-Aware Trend / SuperTrend",
+    "source": "exact_pine_core_port",
+    "pane": "price",
+    "description": "主图趋势线与翻多/翻空信号；已从用户 Pine 保存脚本复刻核心计算。",
+    "logic": [
+      "SuperTrend/ATR trailing stop 是趋势骨架。",
+      "结合趋势质量、效率和波动倍率判断趋势是否足够明确。",
+      "价格重新站上/跌破趋势线时给翻多/翻空事件。"
+    ],
+    "helps": "适合先判断能不能顺趋势做，避免只看短周期震荡信号。",
+    "how_to_read": [
+      "主图黄色/趋势线在价格下方且方向向上时，先视为多头环境；在价格上方或翻空时降低主动买入权重。",
+      "绿色“翻多”只说明趋势切换，不等于立刻买；最好再看是否站上支撑、量能是否放大、老师买入日期是否已过度冲高。",
+      "红色“翻空”或价格跌破趋势线时，优先做风险复核：是否破成本、破支撑、破老师逻辑。"
+    ],
+    "accuracy_note": "这是当前项目里唯一标为 Pine 核心复刻的指标：核心 SuperTrend/趋势质量逻辑来自用户保存脚本，但图形样式和所有 TradingView 视觉细节不保证 100% 一样。",
+    "failure_modes": [
+      "横盘反复穿越时容易连续误判。",
+      "公告/情绪驱动跳空时，趋势线会滞后。"
+    ],
+    "fields": [
+      "sats_supertrend",
+      "sats_trend",
+      "sats_flip_up",
+      "sats_flip_down"
+    ]
+  },
+  {
+    "id": "ut_bot",
+    "name": "UT Bot Alerts",
+    "source": "exact_pine_core_port",
+    "pane": "price",
+    "description": "QuantNomad 开源 UT Bot Alerts 核心复刻；主图显示 ATR trailing stop 与买/卖切换。",
+    "logic": [
+      "默认参数 Key Value=1、ATR Period=10。",
+      "用 ATR 计算动态 trailing stop。",
+      "默认使用普通 K 线 close；TradingView 原脚本的 Heikin-Ashi 开关在本地先不启用。",
+      "close/EMA(1) 穿越 trailing stop 时给 Buy/Sell。"
+    ],
+    "helps": "辅助确认 SuperTrend 翻转是否有跟随止损支持。",
+    "how_to_read": [
+      "主图 UT stop 像一条跟随止损线：价格在其上方偏多，在其下方偏弱。",
+      "如果 SuperTrend 翻多但 UT 仍未转多，说明趋势确认不足，适合先观察而不是追。",
+      "如果价格跌破 UT stop，同时跌破支撑或成本，属于风险信号叠加。"
+    ],
+    "accuracy_note": "核心计算来自 TradingView 公开脚本 UT Bot Alerts（QuantNomad，pineId=PUB;fvKf7ZbacOxo47bpXI9rDSN0npXIk48x，version=1.0）。本地复刻默认 h=false 路径；如果以后需要 Heikin-Ashi 信号，需要先在数据层生成 HA OHLC。",
+    "failure_modes": [
+      "高波动震荡里会频繁反向。",
+      "参数过紧时容易被日内噪音扫掉。"
+    ],
+    "fields": [
+      "ut_stop",
+      "ut_trend",
+      "ut_buy",
+      "ut_sell"
+    ]
+  },
+  {
+    "id": "sr",
+    "name": "Support / Resistance",
+    "source": "local_proxy",
+    "pane": "price",
+    "description": "确认 pivot 支撑压力和突破代理；图上显示支撑/压力线和突破 marker。",
+    "logic": [
+      "用历史 pivot/阶段高低点生成支撑压力。",
+      "放量突破压力或跌破支撑时给事件 marker。"
+    ],
+    "helps": "用于判断老师买入区/止损区附近是否有技术位配合。",
+    "how_to_read": [
+      "主图绿色线是系统识别的近端支撑，红色/压力线是近端压力。",
+      "老师买入后，如果价格站上压力并伴随成交量放大，说明买点后有资金承接。",
+      "如果价格跌破支撑，尤其同时跌破成本线或老师买入日低点，需要优先写风险复核。"
+    ],
+    "accuracy_note": "这是本地 pivot/阶段高低点代理，不是 LuxAlgo Support/Resistance 原版复刻；支撑压力的具体位置会和 TradingView 热门脚本不完全一致。",
+    "failure_modes": [
+      "强趋势时旧压力可能很快失效。",
+      "缩量突破容易是假突破。"
+    ],
+    "fields": [
+      "sr_support",
+      "sr_resistance",
+      "sr_break_resistance",
+      "sr_break_support"
+    ]
+  },
+  {
+    "id": "wavetrend",
+    "name": "WaveTrend",
+    "source": "exact_pine_core_port",
+    "pane": "oscillator",
+    "description": "LazyBear WaveTrend 开源 Pine 核心复刻，用独立副图区显示，避免和主图混在一起。",
+    "logic": [
+      "ap=hlc3。",
+      "esa=EMA(ap,10)，d=EMA(abs(ap-esa),10)。",
+      "ci=(ap-esa)/(0.015*d)，WT1=EMA(ci,21)，WT2=SMA(WT1,4)。",
+      "WT1/WT2 交叉和所处高低位用于判断动量变化。"
+    ],
+    "helps": "补充趋势指标的动量是否衰竭/转强。",
+    "how_to_read": [
+      "副图两条 WaveTrend 线向上交叉，代表短期动量改善；向下交叉代表动量转弱。",
+      "趋势股里不要因为 WT 超买就直接卖，重点看超买后是否钝化上行。",
+      "下跌趋势中 WT 低位金叉只能说明反弹可能，必须等价格站回支撑/趋势线确认。"
+    ],
+    "accuracy_note": "核心计算来自 TradingView 公开脚本 WaveTrend [LazyBear]（pineId=PUB;1，version=-1.0）。本地只复刻 WT1/WT2 数值与交叉事件，不复刻 TradingView 颜色/水平线 UI。",
+    "failure_modes": [
+      "强趋势中超买/超卖会钝化。",
+      "不能单独当作反转依据。"
+    ],
+    "fields": [
+      "wt1",
+      "wt2",
+      "wt_cross_up",
+      "wt_cross_down",
+      "wt_momentum"
+    ]
+  },
+  {
+    "id": "squeeze",
+    "name": "Squeeze Momentum",
+    "source": "exact_pine_core_port",
+    "pane": "oscillator",
+    "description": "LazyBear BB/KC 压缩与动量释放；已通过 TradingView MCP 读取公开 Pine 并复刻核心计算。",
+    "logic": [
+      "用 LazyBear 原 Pine 的 BB/KC 压缩判断 sqzOn/sqzOff。",
+      "用 Donchian/SMA anchor 的价差做 rolling linreg 动量柱。",
+      "压缩释放后按动量柱方向提示观察。"
+    ],
+    "helps": "辅助判断横盘后是否开始选择方向。",
+    "how_to_read": [
+      "副图动量柱接近 0 且压缩状态持续，说明波动收敛，后面可能选择方向。",
+      "压缩释放后动量转正，配合突破压力/放量，才更像有效向上。",
+      "压缩释放但价格没有突破，或释放方向向下，要防止假启动。"
+    ],
+    "accuracy_note": "核心计算来自 TradingView 公开脚本 Squeeze Momentum Indicator [LazyBear]（pineId=PUB;175）；本地不复刻 TV 柱色/cross 绘图，只复刻数值与释放事件。",
+    "failure_modes": [
+      "方向确认慢。",
+      "单票受公告影响时压缩结构可能直接失效。"
+    ],
+    "fields": [
+      "squeeze_on",
+      "squeeze_released",
+      "squeeze_momentum"
+    ]
+  },
+  {
+    "id": "vixfix",
+    "name": "Williams Vix Fix bottom signal",
+    "source": "exact_pine_core_port",
+    "pane": "events",
+    "description": "ChrisMoody Williams Vix Fix 开源 Pine 核心复刻；只以事件 marker 展示，避免挤占主图。",
+    "logic": [
+      "WVF=((highest(close,22)-low)/highest(close,22))*100。",
+      "再计算 20 日 WVF 均线 + 2 倍标准差上轨。",
+      "WVF 高于上轨或 50 日 WVF 高位百分位时，标记为恐慌/阶段底部观察。"
+    ],
+    "helps": "辅助识别跌出恐慌但未必立刻反转的观察点。",
+    "how_to_read": [
+      "主图黄色“底”只代表短期恐慌/超跌，不代表趋势已经反转。",
+      "更适合用来提示“不要在恐慌最低点盲目割肉”，或寻找反弹观察点。",
+      "底部信号之后必须等价格收回支撑、成交量稳定或趋势线翻多，才能提高胜率。"
+    ],
+    "accuracy_note": "核心计算来自 TradingView 公开脚本 CM_Williams_Vix_Fix（pineId=PUB;239，version=-1.0）。本地复刻 wvf、upperBand、rangeHigh 的核心底部条件，不复刻可选 plot 开关。",
+    "failure_modes": [
+      "下跌趋势里会不断出现底部信号。",
+      "需要支撑/成交量/趋势配合确认。"
+    ],
+    "fields": [
+      "wvf",
+      "wvf_bottom_signal",
+      "wvf_recent_bottom"
+    ]
+  },
+  {
+    "id": "smc",
+    "name": "LuxAlgo SMC structure core",
+    "source": "pine_source_partial_port",
+    "pane": "events",
+    "description": "LuxAlgo Smart Money Concepts 公开 Pine 已保存；当前本地先复刻 internal/swing BOS/CHoCH 结构核心。",
+    "logic": [
+      "按原脚本默认 swing length=50、internal length=5 识别结构腿。",
+      "价格突破最近结构高点/低点时区分 BOS 与 CHoCH。",
+      "当前仅输出结构事件；Order Block、FVG、EQH/EQL、Premium/Discount Zone 还未完整移植。"
+    ],
+    "helps": "辅助判断是否从震荡进入趋势，或是否破坏上升结构。",
+    "how_to_read": [
+      "“结构向上”表示价格突破近期结构高点，说明市场从震荡转强的概率提高。",
+      "“结构向下”表示跌破近期结构低点，持仓要检查是否进入破位。",
+      "它更适合确认方向，不负责标出订单块、FVG 或机构成本区。"
+    ],
+    "accuracy_note": "源码来自 TradingView 公开脚本 Smart Money Concepts [LuxAlgo]（pineId=PUB;6daafb2cabe6419d98ae25229d2327f8，version=7.0，CC BY-NC-SA 4.0）。本地目前是“结构核心部分复刻”，不是全量 SMC 视觉/订单块复刻。",
+    "failure_modes": [
+      "未移植 order block/FVG/流动性扫单模块时，不能把它等同于完整 LuxAlgo SMC。",
+      "结构信号在震荡里会频繁 CHoCH，需要和趋势、量能、老师日期分开确认。"
+    ],
+    "fields": [
+      "ms_bos_up",
+      "ms_bos_down",
+      "ms_trend",
+      "ms_swing_bullish_bos",
+      "ms_swing_bearish_bos",
+      "ms_internal_bullish_choch",
+      "ms_internal_bearish_choch"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "mode": "github_pages_public_sanitized",
+  "generated_at": "2026-06-02 09:19:19",
+  "privacy_note": "公开版：账户资金、现金、持仓数量、成本、仓位比例、盈亏和成交数量均不导出。",
+  "symbols": 12,
+  "daily_files": 12,
+  "minute_files": 60,
+  "daily_bars": 1710,
+  "minute_bars": 14460,
+  "signal_files": 12,
+  "backtest_files": 7,
+  "validation": "ok",
+  "problems": []
+}

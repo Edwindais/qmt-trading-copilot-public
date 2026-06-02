@@ -1,0 +1,2396 @@
+{
+  "version": 1,
+  "generated_at": "2026-06-01 09:31:24",
+  "summary": {
+    "symbols": 12,
+    "with_daily": 12,
+    "with_1m": 12,
+    "with_features": 12,
+    "with_auction_like_data": 0,
+    "factor_candidates": 114,
+    "usable_factor_candidates": 115,
+    "generated_at": "2026-06-01 09:31:24"
+  },
+  "coverage": [
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/001203.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/001203.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/001203.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/002214.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/002214.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/002214.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "002632.SZ",
+      "name": "道明光学",
+      "sources": [
+        "公开股票池",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/002632.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/002632.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/002632.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/301626.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/301626.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/301626.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/600089.SH.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/600089.SH.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/600089.SH.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/600114.SH.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/600114.SH.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/600114.SH.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "sources": [
+        "公开股票池",
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/603156.SH.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/603156.SH.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/603156.SH.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "sources": [
+        "watchlist",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 2524,
+      "daily_start": "2016-01-04",
+      "daily_end": "2026-05-28",
+      "daily_missing_weekdays_estimate": 190,
+      "daily_path": "data/lake/market_daily/002611.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 60256,
+      "minute_start": "2025-05-16",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/002611.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 2524,
+      "feature_start": "2016-01-04",
+      "feature_end": "2026-05-28",
+      "feature_path": "data/lake/features_daily/002611.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-28",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "sources": [
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/300638.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/300638.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/300638.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "sources": [
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/300835.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/300835.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/300835.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "sources": [
+        "watchlist",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 1362,
+      "daily_start": "2020-10-15",
+      "daily_end": "2026-05-28",
+      "daily_missing_weekdays_estimate": 104,
+      "daily_path": "data/lake/market_daily/300984.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 59674,
+      "minute_start": "2025-05-21",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/300984.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 1362,
+      "feature_start": "2020-10-15",
+      "feature_end": "2026-05-28",
+      "feature_path": "data/lake/features_daily/300984.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-28",
+      "status": "日线疑似缺口 / 无竞价快照"
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "sources": [
+        "advisor",
+        "features"
+      ],
+      "has_1d": true,
+      "daily_rows": 118,
+      "daily_start": "2025-12-01",
+      "daily_end": "2026-05-29",
+      "daily_missing_weekdays_estimate": 12,
+      "daily_path": "data/lake/market_daily/301132.SZ.parquet",
+      "has_1m": true,
+      "minute_rows": 28438,
+      "minute_start": "2025-12-01",
+      "minute_end": "2026-05-29",
+      "minute_path": "data/lake/market_1m/301132.SZ.parquet",
+      "has_auction_like_data": false,
+      "has_features": true,
+      "feature_rows": 118,
+      "feature_start": "2025-12-01",
+      "feature_end": "2026-05-29",
+      "feature_path": "data/lake/features_daily/301132.SZ.parquet",
+      "factor_columns_count": 105,
+      "latest_data_end": "2026-05-29",
+      "status": "日线疑似缺口 / 无竞价快照"
+    }
+  ],
+  "factors": [
+    {
+      "id": "high_20",
+      "name": "high 20",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 76.343333,
+      "latest_min": 12.04,
+      "latest_max": 347.75,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "high_60",
+      "name": "high 60",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 77.246667,
+      "latest_min": 14.48,
+      "latest_max": 347.75,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "low_20",
+      "name": "low 20",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 52.739167,
+      "latest_min": 10.13,
+      "latest_max": 261.08,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "low_60",
+      "name": "low 60",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 45.614167,
+      "latest_min": 10.13,
+      "latest_max": 217.53,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "resistance_1",
+      "name": "近端压力",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": 76.343333,
+      "latest_min": 12.04,
+      "latest_max": 347.75,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_break_resistance",
+      "name": "sr break resistance",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_break_support",
+      "name": "sr break support",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_dist_resistance",
+      "name": "sr dist resistance",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.009367,
+      "latest_min": -0.3059,
+      "latest_max": 0.804,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_dist_support",
+      "name": "sr dist support",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.314317,
+      "latest_min": -0.1461,
+      "latest_max": 1.5683,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_nearest_distance",
+      "name": "sr nearest distance",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.147492,
+      "latest_min": -0.1461,
+      "latest_max": 0.804,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_resistance",
+      "name": "sr resistance",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 55.814167,
+      "latest_min": 14.48,
+      "latest_max": 201.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_support",
+      "name": "sr support",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 42.1475,
+      "latest_min": 11.91,
+      "latest_max": 168.8,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_vol_osc",
+      "name": "sr vol osc",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 2.393075,
+      "latest_min": -16.6252,
+      "latest_max": 29.4183,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "support_1",
+      "name": "近端支撑",
+      "category": "位置/支撑压力",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": 52.739167,
+      "latest_min": 10.13,
+      "latest_max": 261.08,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "adx14",
+      "name": "adx14",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 27.512958,
+      "latest_min": 10.6832,
+      "latest_max": 52.7914,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "boll_bandwidth",
+      "name": "boll bandwidth",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.295242,
+      "latest_min": 0.1463,
+      "latest_max": 0.8593,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "boll_lower",
+      "name": "boll lower",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 51.068742,
+      "latest_min": 10.077,
+      "latest_max": 253.0884,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "boll_mid",
+      "name": "boll mid",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 62.749542,
+      "latest_min": 11.0405,
+      "latest_max": 295.1735,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "boll_pct_b",
+      "name": "boll pct b",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.354975,
+      "latest_min": -0.1949,
+      "latest_max": 0.9612,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "boll_upper",
+      "name": "boll upper",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 74.430342,
+      "latest_min": 12.004,
+      "latest_max": 337.2586,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "kc_lower",
+      "name": "kc lower",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 57.591633,
+      "latest_min": 10.2058,
+      "latest_max": 273.5105,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "kc_mid",
+      "name": "kc mid",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 63.310767,
+      "latest_min": 10.9693,
+      "latest_max": 298.5725,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "kc_upper",
+      "name": "kc upper",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 69.029883,
+      "latest_min": 11.7328,
+      "latest_max": 323.6345,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "minus_di14",
+      "name": "minus di14",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 22.111158,
+      "latest_min": 6.0273,
+      "latest_max": 49.0006,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "openInterest",
+      "name": "openInterest",
+      "category": "其他",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "period",
+      "name": "period",
+      "category": "其他",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "plus_di14",
+      "name": "plus di14",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 24.93045,
+      "latest_min": 17.121,
+      "latest_max": 50.5704,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "preClose",
+      "name": "preClose",
+      "category": "其他",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "price_vs_vwap",
+      "name": "price vs vwap",
+      "category": "其他",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 11,
+      "latest_mean": -0.012044,
+      "latest_min": -0.03046,
+      "latest_max": 0.009722,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "settelementPrice",
+      "name": "settelementPrice",
+      "category": "其他",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_dir",
+      "name": "st dir",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.166667,
+      "latest_min": -1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_distance_pct",
+      "name": "st distance pct",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 11,
+      "latest_mean": 0.019023,
+      "latest_min": -0.158057,
+      "latest_max": 0.284841,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_flip_down",
+      "name": "st flip down",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_flip_up",
+      "name": "st flip up",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_line",
+      "name": "st line",
+      "category": "其他",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 11,
+      "latest_mean": 61.231273,
+      "latest_min": 11.852,
+      "latest_max": 281.494,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "suspendFlag",
+      "name": "suspendFlag",
+      "category": "其他",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "vwap_day",
+      "name": "vwap day",
+      "category": "其他",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 11,
+      "latest_mean": 59.2996,
+      "latest_min": 10.4891,
+      "latest_max": 338.7291,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "rsi14",
+      "name": "RSI14 强弱",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 42.434158,
+      "latest_min": 16.8874,
+      "latest_max": 73.919,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_momentum",
+      "name": "Squeeze 动量",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 5.036358,
+      "latest_min": -9.7264,
+      "latest_max": 40.6237,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_momentum_slope",
+      "name": "squeeze momentum slope",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.0141,
+      "latest_min": -1.991,
+      "latest_max": 2.6579,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_on",
+      "name": "squeeze on",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.333333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_release",
+      "name": "squeeze release",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_release_dir",
+      "name": "squeeze release dir",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "squeeze_released",
+      "name": "squeeze released",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt1",
+      "name": "WaveTrend WT1",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 3.951683,
+      "latest_min": -56.0145,
+      "latest_max": 81.7838,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt2",
+      "name": "WaveTrend WT2",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 9.2632,
+      "latest_min": -51.8441,
+      "latest_max": 79.8349,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_cross",
+      "name": "wt cross",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.083333,
+      "latest_min": -1.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_cross_down",
+      "name": "wt cross down",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.083333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_cross_up",
+      "name": "wt cross up",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_momentum",
+      "name": "wt momentum",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -5.311542,
+      "latest_min": -18.9784,
+      "latest_max": 11.5192,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_ob_os_state",
+      "name": "wt ob os state",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.166667,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wt_slope",
+      "name": "wt slope",
+      "category": "动量",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -4.676375,
+      "latest_min": -13.9517,
+      "latest_max": 6.4658,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "atr14",
+      "name": "ATR14 波动",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 4.042433,
+      "latest_min": 0.5557,
+      "latest_max": 17.5321,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "drawdown_from_60d_high",
+      "name": "距60日高点回撤",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": -0.179687,
+      "latest_min": -0.297652,
+      "latest_max": -0.039569,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "st_distance_atr",
+      "name": "st distance atr",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 11,
+      "latest_mean": -0.318327,
+      "latest_min": -3.468,
+      "latest_max": 3.0586,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf",
+      "name": "Williams Vix Fix",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 14.087167,
+      "latest_min": 2.2946,
+      "latest_max": 29.2308,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_bottom_signal",
+      "name": "wvf bottom signal",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.416667,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_range_high",
+      "name": "wvf range high",
+      "category": "波动/回撤",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_recent_bottom",
+      "name": "wvf recent bottom",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.833333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_recovery_confirmed",
+      "name": "wvf recovery confirmed",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.166667,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_spike",
+      "name": "wvf spike",
+      "category": "波动/回撤",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.416667,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "wvf_upper",
+      "name": "wvf upper",
+      "category": "波动/回撤",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "pct_from_teacher_entry",
+      "name": "pct from teacher entry",
+      "category": "老师信号",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 1,
+      "latest_mean": -0.269711,
+      "latest_min": -0.269711,
+      "latest_max": -0.269711,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "distance_to_supertrend",
+      "name": "distance to supertrend",
+      "category": "趋势",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": -0.043349,
+      "latest_min": -0.083653,
+      "latest_max": 0.077835,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ma120",
+      "name": "120日均线",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 51.573083,
+      "latest_min": 12.5122,
+      "latest_max": 224.7761,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ma20",
+      "name": "20日均线",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 62.749542,
+      "latest_min": 11.0405,
+      "latest_max": 295.1735,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ma60",
+      "name": "60日均线",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 56.6554,
+      "latest_min": 11.949,
+      "latest_max": 268.0573,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "macd_dea",
+      "name": "macd dea",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 2.604533,
+      "latest_min": -0.6923,
+      "latest_max": 14.6205,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "macd_dif",
+      "name": "macd dif",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 3.309567,
+      "latest_min": -1.433,
+      "latest_max": 20.9901,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "macd_hist",
+      "name": "macd hist",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.705033,
+      "latest_min": -1.0037,
+      "latest_max": 6.3696,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "macd_hist_slope",
+      "name": "macd hist slope",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.108883,
+      "latest_min": -0.3963,
+      "latest_max": 0.1275,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_bos_choch_state",
+      "name": "ms bos choch state",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.083333,
+      "latest_min": -1.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_bos_down",
+      "name": "ms bos down",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.083333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_bos_up",
+      "name": "ms bos up",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_bearish_bos",
+      "name": "ms internal bearish bos",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.083333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_bearish_choch",
+      "name": "ms internal bearish choch",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_bullish_bos",
+      "name": "ms internal bullish bos",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_bullish_choch",
+      "name": "ms internal bullish choch",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_last_high",
+      "name": "ms internal last high",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_last_low",
+      "name": "ms internal last low",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_internal_trend",
+      "name": "ms internal trend",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_last_swing_high",
+      "name": "ms last swing high",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_last_swing_low",
+      "name": "ms last swing low",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_bearish_bos",
+      "name": "ms swing bearish bos",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_bearish_choch",
+      "name": "ms swing bearish choch",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_bullish_bos",
+      "name": "ms swing bullish bos",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_bullish_choch",
+      "name": "ms swing bullish choch",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_last_high",
+      "name": "ms swing last high",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_last_low",
+      "name": "ms swing last low",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_swing_trend",
+      "name": "ms swing trend",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ms_trend",
+      "name": "SMC 结构趋势",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.166667,
+      "latest_min": -1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "p0_trend_confirm_score",
+      "name": "p0 trend confirm score",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -1.166667,
+      "latest_min": -6.0,
+      "latest_max": 6.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_active_mult",
+      "name": "sats active mult",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 2.648758,
+      "latest_min": 2.126,
+      "latest_max": 2.9201,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_er",
+      "name": "sats er",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.215558,
+      "latest_min": 0.0318,
+      "latest_max": 0.5017,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_flip_down",
+      "name": "sats flip down",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.083333,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_flip_up",
+      "name": "sats flip up",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_is_warmed",
+      "name": "sats is warmed",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 1.0,
+      "latest_min": 1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_passive_mult",
+      "name": "sats passive mult",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 3.051308,
+      "latest_min": 2.6046,
+      "latest_max": 3.289,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_supertrend",
+      "name": "SATS 趋势线",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_tqi",
+      "name": "SATS 趋势质量",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.443142,
+      "latest_min": 0.2408,
+      "latest_max": 0.7503,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_trend",
+      "name": "sats trend",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sats_vol_ratio",
+      "name": "sats vol ratio",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 1.269983,
+      "latest_min": 0.7703,
+      "latest_max": 2.1257,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "supertrend",
+      "name": "supertrend",
+      "category": "趋势",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": 67.960683,
+      "latest_min": 11.0347,
+      "latest_max": 309.8711,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "supertrend_dir",
+      "name": "supertrend dir",
+      "category": "趋势",
+      "sources": [
+        "current_features"
+      ],
+      "coverage_symbols": 0,
+      "coverage_ratio": 0.0,
+      "latest_count": 12,
+      "latest_mean": -0.5,
+      "latest_min": -1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_buy",
+      "name": "ut buy",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_distance_atr",
+      "name": "ut distance atr",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.631858,
+      "latest_min": -1.044,
+      "latest_max": 0.788,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_flip",
+      "name": "ut flip",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.166667,
+      "latest_min": -1.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_sell",
+      "name": "ut sell",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.166667,
+      "latest_min": 0.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_st_confirm",
+      "name": "ut st confirm",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.166667,
+      "latest_min": -1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_stop",
+      "name": "UT Bot 止损线",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 68.609408,
+      "latest_min": 10.7466,
+      "latest_max": 320.1741,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "ut_trend",
+      "name": "ut trend",
+      "category": "趋势",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": -0.5,
+      "latest_min": -1.0,
+      "latest_max": 1.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "vol_ma20",
+      "name": "vol ma20",
+      "category": "趋势",
+      "sources": [
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 0,
+      "latest_mean": null,
+      "latest_min": null,
+      "latest_max": null,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "sr_break_with_volume",
+      "name": "sr break with volume",
+      "category": "量能",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 0.0,
+      "latest_min": 0.0,
+      "latest_max": 0.0,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    },
+    {
+      "id": "vol_ratio_20",
+      "name": "20日量能比",
+      "category": "量能",
+      "sources": [
+        "current_features",
+        "features_daily"
+      ],
+      "coverage_symbols": 12,
+      "coverage_ratio": 1.0,
+      "latest_count": 12,
+      "latest_mean": 1.253767,
+      "latest_min": 0.634,
+      "latest_max": 3.2531,
+      "usable_for_mining": true,
+      "leakage_risk": "low",
+      "note": "来自脚本特征层，可进入 walk-forward 因子测试；必须按日期截断避免未来函数。"
+    }
+  ],
+  "methodology": [
+    "只读取本地 state/advisor/data/exports 的股票池，不扫描全市场大文件，避免前端卡顿。",
+    "日线、1m、features_daily 分别检查 parquet 覆盖；中国节假日未扣除，缺口是工作日估算。",
+    "因子候选来自 features_daily parquet 与 current_features.csv；正式挖掘必须按交易日切片做 walk-forward，不能读取未来标签。",
+    "当前没有集合竞价/tick/盘口快照时，09:25 只能作为计划复核，不能倒推竞价因子。"
+  ],
+  "outputs": {
+    "coverage_csv": "data/catalog/symbol_coverage.csv",
+    "manifest_json": "data/catalog/market_manifest.json",
+    "factor_summary_json": "data/exports/factor_mining_summary.json"
+  }
+}

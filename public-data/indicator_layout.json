@@ -1,0 +1,25 @@
+{
+  "enabled": {
+    "cost_line": false,
+    "advisor_lines": false,
+    "advisor_keynotes": true,
+    "ai_operations": false,
+    "sats": true,
+    "ut_bot": true,
+    "sr": false,
+    "wavetrend": false,
+    "squeeze": false,
+    "vixfix": false,
+    "smc": false
+  },
+  "colors": {
+    "sats": "#f6c85f",
+    "ut_bot": "#7dd3fc",
+    "sr_support": "#22c55e",
+    "sr_resistance": "#ef4444",
+    "wavetrend": "#a78bfa",
+    "squeeze": "#f97316"
+  },
+  "version": 1,
+  "updated_at": "2026-05-31 10:17:36"
+}

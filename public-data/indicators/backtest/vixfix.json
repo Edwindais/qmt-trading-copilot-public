@@ -1,0 +1,1163 @@
+{
+  "indicator_id": "vixfix",
+  "indicator_name": "Williams Vix Fix bottom signal",
+  "months": 2,
+  "scope_note": "当前股票池（持仓 + 自选 + 老师建议）",
+  "window_start": "2026-04-01",
+  "window_end": "2026-06-01",
+  "methodology": [
+    "信号本身只使用当日及之前已经计算好的本地指标字段。",
+    "准确性是事后统计：观察信号出现后未来 1/3/5/10 个交易日是否沿预期方向运行。",
+    "最近几天信号如果未来 K 线不足，会标记为 pending，不计入对应周期命中率。",
+    "该统计只衡量技术指标在当前股票池的历史辅助价值，不包含公告、老师观点、筹码、情绪和流动性判断。"
+  ],
+  "indicator_summary": "统计恐慌/阶段底部 marker 出现后是否有反弹；这是观察信号，不等于趋势反转。",
+  "summary": {
+    "symbols_requested": 12,
+    "symbols_with_data": 12,
+    "total_signals": 68,
+    "buy_signals": 0,
+    "sell_signals": 0,
+    "risk_signals": 0,
+    "watch_signals": 68,
+    "false_signal_count_5d": 20,
+    "pending_signal_count_5d": 23,
+    "horizons": {
+      "1d": {
+        "horizon": 1,
+        "matured": 63,
+        "hits": 23,
+        "hit_rate": 0.3651,
+        "avg_directional_return": -0.006881,
+        "avg_raw_return": -0.006881,
+        "avg_favorable_pct": 0.020648,
+        "avg_adverse_pct": -0.027169
+      },
+      "3d": {
+        "horizon": 3,
+        "matured": 53,
+        "hits": 24,
+        "hit_rate": 0.4528,
+        "avg_directional_return": -0.002347,
+        "avg_raw_return": -0.002347,
+        "avg_favorable_pct": 0.047767,
+        "avg_adverse_pct": -0.0447
+      },
+      "5d": {
+        "horizon": 5,
+        "matured": 45,
+        "hits": 25,
+        "hit_rate": 0.5556,
+        "avg_directional_return": 0.024164,
+        "avg_raw_return": 0.024164,
+        "avg_favorable_pct": 0.078689,
+        "avg_adverse_pct": -0.048116
+      },
+      "10d": {
+        "horizon": 10,
+        "matured": 27,
+        "hits": 16,
+        "hit_rate": 0.5926,
+        "avg_directional_return": 0.018362,
+        "avg_raw_return": 0.018362,
+        "avg_favorable_pct": 0.101401,
+        "avg_adverse_pct": -0.057726
+      }
+    }
+  },
+  "by_symbol": [
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 15,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 15,
+      "hit_rate_5d": 0.0,
+      "avg_directional_return_5d": -0.052578,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 11,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 11,
+      "hit_rate_5d": 0.8182,
+      "avg_directional_return_5d": 0.05778,
+      "latest_signal_date": "2026-05-22"
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 9,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 9,
+      "hit_rate_5d": 0.25,
+      "avg_directional_return_5d": -0.02132,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 7,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 7,
+      "hit_rate_5d": 0.0,
+      "avg_directional_return_5d": -0.212931,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 7,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 7,
+      "hit_rate_5d": 1.0,
+      "avg_directional_return_5d": 0.123242,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 6,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 6,
+      "hit_rate_5d": 0.6667,
+      "avg_directional_return_5d": 0.036882,
+      "latest_signal_date": "2026-05-21"
+    },
+    {
+      "symbol": "002632.SZ",
+      "name": "道明光学",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 5,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 5,
+      "hit_rate_5d": 0.8,
+      "avg_directional_return_5d": 0.039403,
+      "latest_signal_date": "2026-05-21"
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 4,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 4,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 3,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 3,
+      "hit_rate_5d": 1.0,
+      "avg_directional_return_5d": 0.17009,
+      "latest_signal_date": "2026-05-19"
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 1,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 1,
+      "hit_rate_5d": 1.0,
+      "avg_directional_return_5d": 0.190441,
+      "latest_signal_date": "2026-05-19"
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 0,
+      "buy_signals": 0,
+      "sell_signals": 0,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": null,
+      "avg_directional_return_5d": null,
+      "latest_signal_date": ""
+    }
+  ],
+  "recent_signals": [
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-06-01",
+      "price": 41.93,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "date": "2026-06-01",
+      "price": 56.26,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-06-01",
+      "price": 16.83,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-06-01",
+      "price": 14.13,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-06-01",
+      "price": 37.66,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-29",
+      "price": 42.74,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.018952,
+          "directional_return": -0.018952,
+          "favorable_pct": 0.000468,
+          "adverse_pct": -0.021292,
+          "end_date": "2026-06-01",
+          "end_close": 41.93
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "date": "2026-05-29",
+      "price": 56.99,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.012809,
+          "directional_return": -0.012809,
+          "favorable_pct": 0.004211,
+          "adverse_pct": -0.018424,
+          "end_date": "2026-06-01",
+          "end_close": 56.26
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-29",
+      "price": 16.74,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.005376,
+          "directional_return": 0.005376,
+          "favorable_pct": 0.032855,
+          "adverse_pct": -0.004182,
+          "end_date": "2026-06-01",
+          "end_close": 16.83
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-29",
+      "price": 14.87,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.049765,
+          "directional_return": -0.049765,
+          "favorable_pct": -0.049765,
+          "adverse_pct": -0.049765,
+          "end_date": "2026-06-01",
+          "end_close": 14.13
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-05-29",
+      "price": 39.0,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.034359,
+          "directional_return": -0.034359,
+          "favorable_pct": 0.003333,
+          "adverse_pct": -0.041538,
+          "end_date": "2026-06-01",
+          "end_close": 37.66
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-28",
+      "price": 43.73,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.022639,
+          "directional_return": -0.022639,
+          "favorable_pct": 0.003659,
+          "adverse_pct": -0.031329,
+          "end_date": "2026-05-29",
+          "end_close": 42.74
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "date": "2026-05-28",
+      "price": 62.44,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.087284,
+          "directional_return": -0.087284,
+          "favorable_pct": 0.024343,
+          "adverse_pct": -0.098014,
+          "end_date": "2026-05-29",
+          "end_close": 56.99
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-28",
+      "price": 17.74,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.05637,
+          "directional_return": -0.05637,
+          "favorable_pct": 0.002818,
+          "adverse_pct": -0.061443,
+          "end_date": "2026-05-29",
+          "end_close": 16.74
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-28",
+      "price": 15.65,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.04984,
+          "directional_return": -0.04984,
+          "favorable_pct": -0.001278,
+          "adverse_pct": -0.04984,
+          "end_date": "2026-05-29",
+          "end_close": 14.87
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-05-28",
+      "price": 38.55,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.011673,
+          "directional_return": 0.011673,
+          "favorable_pct": 0.023087,
+          "adverse_pct": -0.02153,
+          "end_date": "2026-05-29",
+          "end_close": 39.0
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-27",
+      "price": 43.97,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.005458,
+          "directional_return": -0.005458,
+          "favorable_pct": 0.030248,
+          "adverse_pct": -0.016147,
+          "end_date": "2026-05-28",
+          "end_close": 43.73
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.046395,
+          "directional_return": -0.046395,
+          "favorable_pct": 0.030248,
+          "adverse_pct": -0.04867,
+          "end_date": "2026-06-01",
+          "end_close": 41.93
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "date": "2026-05-27",
+      "price": 64.39,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.030284,
+          "directional_return": -0.030284,
+          "favorable_pct": -0.00264,
+          "adverse_pct": -0.056065,
+          "end_date": "2026-05-28",
+          "end_close": 62.44
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.126262,
+          "directional_return": -0.126262,
+          "favorable_pct": -0.00264,
+          "adverse_pct": -0.131232,
+          "end_date": "2026-06-01",
+          "end_close": 56.26
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-27",
+      "price": 18.02,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.015538,
+          "directional_return": -0.015538,
+          "favorable_pct": -0.00222,
+          "adverse_pct": -0.039401,
+          "end_date": "2026-05-28",
+          "end_close": 17.74
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.066038,
+          "directional_return": -0.066038,
+          "favorable_pct": -0.00222,
+          "adverse_pct": -0.076027,
+          "end_date": "2026-06-01",
+          "end_close": 16.83
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-27",
+      "price": 16.47,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.049787,
+          "directional_return": -0.049787,
+          "favorable_pct": -0.049787,
+          "adverse_pct": -0.049787,
+          "end_date": "2026-05-28",
+          "end_close": 15.65
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.142077,
+          "directional_return": -0.142077,
+          "favorable_pct": -0.049787,
+          "adverse_pct": -0.142077,
+          "end_date": "2026-06-01",
+          "end_close": 14.13
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-05-27",
+      "price": 38.51,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.001039,
+          "directional_return": 0.001039,
+          "favorable_pct": 0.034277,
+          "adverse_pct": -0.009089,
+          "end_date": "2026-05-28",
+          "end_close": 38.55
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.022072,
+          "directional_return": -0.022072,
+          "favorable_pct": 0.034277,
+          "adverse_pct": -0.029343,
+          "end_date": "2026-06-01",
+          "end_close": 37.66
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-26",
+      "price": 44.14,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.003851,
+          "directional_return": -0.003851,
+          "favorable_pct": 0.051427,
+          "adverse_pct": -0.012687,
+          "end_date": "2026-05-27",
+          "end_close": 43.97
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.031717,
+          "directional_return": -0.031717,
+          "favorable_pct": 0.051427,
+          "adverse_pct": -0.040326,
+          "end_date": "2026-05-29",
+          "end_close": 42.74
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-26",
+      "price": 17.34,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.050173,
+          "directional_return": -0.050173,
+          "favorable_pct": -0.050173,
+          "adverse_pct": -0.050173,
+          "end_date": "2026-05-27",
+          "end_close": 16.47
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.142445,
+          "directional_return": -0.142445,
+          "favorable_pct": -0.050173,
+          "adverse_pct": -0.142445,
+          "end_date": "2026-05-29",
+          "end_close": 14.87
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-05-26",
+      "price": 40.08,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.039172,
+          "directional_return": -0.039172,
+          "favorable_pct": 0.037425,
+          "adverse_pct": -0.051896,
+          "end_date": "2026-05-27",
+          "end_close": 38.51
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.026946,
+          "directional_return": -0.026946,
+          "favorable_pct": 0.037425,
+          "adverse_pct": -0.058882,
+          "end_date": "2026-05-29",
+          "end_close": 39.0
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-25",
+      "price": 44.93,
+      "side": "watch",
+      "label": "VixFix底部观察",
+      "field": "wvf_bottom_signal",
+      "condition": "wvf_bottom_signal=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.017583,
+          "directional_return": -0.017583,
+          "favorable_pct": -0.007345,
+          "adverse_pct": -0.034053,
+          "end_date": "2026-05-26",
+          "end_close": 44.14
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.026708,
+          "directional_return": -0.026708,
+          "favorable_pct": 0.03294,
+          "adverse_pct": -0.037169,
+          "end_date": "2026-05-28",
+          "end_close": 43.73
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.066771,
+          "directional_return": -0.066771,
+          "favorable_pct": 0.03294,
+          "adverse_pct": -0.068996,
+          "end_date": "2026-06-01",
+          "end_close": 41.93
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    }
+  ],
+  "analysis": [
+    "过去两个月 5 日方向命中率中性偏可用，但仍需要成交量、支撑压力和老师事件配合。",
+    "5 日命中率=55.6%，平均方向收益=2.42%；这个口径只评价信号后走势，不代表未来保证。",
+    "如果某只股票只有 1-2 个信号，样本太少，不要过度拟合。"
+  ],
+  "failure_analysis": [
+    "信号后 5 日平均最大反向波动约 -4.81%，说明止损/仓位控制比信号本身更重要。",
+    "公告、停复牌、ST/摘帽、老师观点更新、板块情绪突变，可能让技术指标失效。",
+    "横盘震荡会让趋势/结构类指标反复打脸；强趋势会让震荡指标过早提示超买或超卖。",
+    "该类副图/事件指标更适合提醒“观察”，不要替代主图趋势和风控。"
+  ],
+  "skipped": []
+}

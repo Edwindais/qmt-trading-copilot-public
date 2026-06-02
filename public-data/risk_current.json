@@ -1,0 +1,74 @@
+[
+  {
+    "symbol": "600089",
+    "name": "特变电工",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "需复核",
+    "risk_level": "高",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "600114",
+    "name": "东睦股份",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "需复核",
+    "risk_level": "高",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "603156",
+    "name": "养元饮品",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "",
+    "risk_level": "观察",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "001203",
+    "name": "大中矿业",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "",
+    "risk_level": "观察",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "002214",
+    "name": "*ST大立",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "需复核",
+    "risk_level": "高",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "002632",
+    "name": "道明光学",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "",
+    "risk_level": "观察",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "301626",
+    "name": "苏州天脉",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "",
+    "risk_level": "观察",
+    "pnl_pct": ""
+  },
+  {
+    "symbol": "300835",
+    "name": "龙磁科技",
+    "weight": "",
+    "theme": "未分类",
+    "risk_flags": "",
+    "risk_level": "观察",
+    "pnl_pct": ""
+  }
+]

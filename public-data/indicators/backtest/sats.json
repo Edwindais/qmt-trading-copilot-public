@@ -1,0 +1,1491 @@
+{
+  "indicator_id": "sats",
+  "indicator_name": "Self-Aware Trend / SuperTrend",
+  "months": 2,
+  "scope_note": "当前股票池（持仓 + 自选 + 老师建议）",
+  "window_start": "2026-04-01",
+  "window_end": "2026-06-01",
+  "methodology": [
+    "信号本身只使用当日及之前已经计算好的本地指标字段。",
+    "准确性是事后统计：观察信号出现后未来 1/3/5/10 个交易日是否沿预期方向运行。",
+    "最近几天信号如果未来 K 线不足，会标记为 pending，不计入对应周期命中率。",
+    "该统计只衡量技术指标在当前股票池的历史辅助价值，不包含公告、老师观点、筹码、情绪和流动性判断。"
+  ],
+  "indicator_summary": "用 SATS/SuperTrend 翻多、翻空信号做事后统计，衡量趋势切换后 1/3/5/10 个交易日是否沿预期方向运行。",
+  "summary": {
+    "symbols_requested": 12,
+    "symbols_with_data": 12,
+    "total_signals": 46,
+    "buy_signals": 23,
+    "sell_signals": 23,
+    "risk_signals": 0,
+    "watch_signals": 0,
+    "false_signal_count_5d": 20,
+    "pending_signal_count_5d": 4,
+    "horizons": {
+      "1d": {
+        "horizon": 1,
+        "matured": 44,
+        "hits": 22,
+        "hit_rate": 0.5,
+        "avg_directional_return": 0.002606,
+        "avg_raw_return": 0.011956,
+        "avg_favorable_pct": 0.026503,
+        "avg_adverse_pct": -0.02388
+      },
+      "3d": {
+        "horizon": 3,
+        "matured": 43,
+        "hits": 19,
+        "hit_rate": 0.4419,
+        "avg_directional_return": 0.004986,
+        "avg_raw_return": 0.028793,
+        "avg_favorable_pct": 0.05048,
+        "avg_adverse_pct": -0.046809
+      },
+      "5d": {
+        "horizon": 5,
+        "matured": 42,
+        "hits": 22,
+        "hit_rate": 0.5238,
+        "avg_directional_return": -0.011627,
+        "avg_raw_return": 0.056498,
+        "avg_favorable_pct": 0.061561,
+        "avg_adverse_pct": -0.073095
+      },
+      "10d": {
+        "horizon": 10,
+        "matured": 35,
+        "hits": 13,
+        "hit_rate": 0.3714,
+        "avg_directional_return": -0.03706,
+        "avg_raw_return": 0.038424,
+        "avg_favorable_pct": 0.065119,
+        "avg_adverse_pct": -0.12541
+      }
+    }
+  },
+  "by_symbol": [
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 7,
+      "buy_signals": 3,
+      "sell_signals": 4,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.2857,
+      "avg_directional_return_5d": -0.007795,
+      "latest_signal_date": "2026-05-20"
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 6,
+      "buy_signals": 3,
+      "sell_signals": 3,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.6,
+      "avg_directional_return_5d": 3.2e-05,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 5,
+      "buy_signals": 3,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.75,
+      "avg_directional_return_5d": 0.002774,
+      "latest_signal_date": "2026-06-01"
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 5,
+      "buy_signals": 3,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.4,
+      "avg_directional_return_5d": -0.019254,
+      "latest_signal_date": "2026-05-25"
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 4,
+      "buy_signals": 2,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.5,
+      "avg_directional_return_5d": -0.014872,
+      "latest_signal_date": "2026-05-18"
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 4,
+      "buy_signals": 2,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.6667,
+      "avg_directional_return_5d": -0.02778,
+      "latest_signal_date": "2026-05-27"
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 4,
+      "buy_signals": 2,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.5,
+      "avg_directional_return_5d": -0.01793,
+      "latest_signal_date": "2026-05-15"
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 4,
+      "buy_signals": 2,
+      "sell_signals": 2,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.6667,
+      "avg_directional_return_5d": -0.016843,
+      "latest_signal_date": "2026-05-29"
+    },
+    {
+      "symbol": "002632.SZ",
+      "name": "道明光学",
+      "groups": [
+        "watchlist"
+      ],
+      "signals": 2,
+      "buy_signals": 1,
+      "sell_signals": 1,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.5,
+      "avg_directional_return_5d": -0.034482,
+      "latest_signal_date": "2026-04-23"
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 2,
+      "buy_signals": 1,
+      "sell_signals": 1,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.5,
+      "avg_directional_return_5d": -0.054358,
+      "latest_signal_date": "2026-05-25"
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 2,
+      "buy_signals": 1,
+      "sell_signals": 1,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 0.5,
+      "avg_directional_return_5d": -0.004169,
+      "latest_signal_date": "2026-05-21"
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "groups": [
+        "advisor"
+      ],
+      "signals": 1,
+      "buy_signals": 0,
+      "sell_signals": 1,
+      "risk_signals": 0,
+      "watch_signals": 0,
+      "hit_rate_5d": 1.0,
+      "avg_directional_return_5d": 0.102331,
+      "latest_signal_date": "2026-05-08"
+    }
+  ],
+  "recent_signals": [
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "date": "2026-06-01",
+      "price": 170.8,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "date": "2026-06-01",
+      "price": 23.28,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": true
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "date": "2026-05-29",
+      "price": 36.62,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.037138,
+          "directional_return": 0.037138,
+          "favorable_pct": 0.038504,
+          "adverse_pct": -0.025123,
+          "end_date": "2026-06-01",
+          "end_close": 35.26
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": true
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300984.SZ",
+      "name": "金沃股份",
+      "date": "2026-05-27",
+      "price": 64.39,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.030284,
+          "directional_return": 0.030284,
+          "favorable_pct": 0.056065,
+          "adverse_pct": 0.00264,
+          "end_date": "2026-05-28",
+          "end_close": 62.44
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.126262,
+          "directional_return": 0.126262,
+          "favorable_pct": 0.131232,
+          "adverse_pct": 0.00264,
+          "end_date": "2026-06-01",
+          "end_close": 56.26
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": true
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "date": "2026-05-25",
+      "price": 309.97,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.051069,
+          "directional_return": 0.051069,
+          "favorable_pct": 0.074298,
+          "adverse_pct": 9.7e-05,
+          "end_date": "2026-05-26",
+          "end_close": 325.8
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.089622,
+          "directional_return": 0.089622,
+          "favorable_pct": 0.119463,
+          "adverse_pct": 9.7e-05,
+          "end_date": "2026-05-28",
+          "end_close": 337.75
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.038133,
+          "directional_return": 0.038133,
+          "favorable_pct": 0.150692,
+          "adverse_pct": 9.7e-05,
+          "end_date": "2026-06-01",
+          "end_close": 321.79
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "date": "2026-05-25",
+      "price": 40.84,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.018364,
+          "directional_return": -0.018364,
+          "favorable_pct": 0.007346,
+          "adverse_pct": -0.037218,
+          "end_date": "2026-05-26",
+          "end_close": 40.09
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.033546,
+          "directional_return": 0.033546,
+          "favorable_pct": 0.043095,
+          "adverse_pct": -0.049216,
+          "end_date": "2026-05-28",
+          "end_close": 42.21
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.034035,
+          "directional_return": -0.034035,
+          "favorable_pct": 0.049216,
+          "adverse_pct": -0.049216,
+          "end_date": "2026-06-01",
+          "end_close": 39.45
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "603156.SH",
+      "name": "养元饮品",
+      "date": "2026-05-21",
+      "price": 44.15,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.01427,
+          "directional_return": -0.01427,
+          "favorable_pct": 0.021518,
+          "adverse_pct": -0.034202,
+          "end_date": "2026-05-22",
+          "end_close": 44.78
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.000227,
+          "directional_return": 0.000227,
+          "favorable_pct": 0.037373,
+          "adverse_pct": -0.048698,
+          "end_date": "2026-05-26",
+          "end_close": 44.14
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.009513,
+          "directional_return": 0.009513,
+          "favorable_pct": 0.037373,
+          "adverse_pct": -0.051189,
+          "end_date": "2026-05-28",
+          "end_close": 43.73
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "date": "2026-05-21",
+      "price": 34.96,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.079805,
+          "directional_return": 0.079805,
+          "favorable_pct": 0.08667,
+          "adverse_pct": 0.005435,
+          "end_date": "2026-05-22",
+          "end_close": 37.75
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.122998,
+          "directional_return": 0.122998,
+          "favorable_pct": 0.151316,
+          "adverse_pct": 0.005435,
+          "end_date": "2026-05-26",
+          "end_close": 39.26
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.131293,
+          "directional_return": 0.131293,
+          "favorable_pct": 0.151316,
+          "adverse_pct": 0.005435,
+          "end_date": "2026-05-28",
+          "end_close": 39.55
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "date": "2026-05-21",
+      "price": 121.15,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.170697,
+          "directional_return": 0.170697,
+          "favorable_pct": 0.183244,
+          "adverse_pct": 0.016013,
+          "end_date": "2026-05-22",
+          "end_close": 141.83
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.347833,
+          "directional_return": 0.347833,
+          "favorable_pct": 0.482542,
+          "adverse_pct": 0.016013,
+          "end_date": "2026-05-26",
+          "end_close": 163.29
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.577383,
+          "directional_return": 0.577383,
+          "favorable_pct": 0.593066,
+          "adverse_pct": 0.016013,
+          "end_date": "2026-05-28",
+          "end_close": 191.1
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "date": "2026-05-21",
+      "price": 23.36,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.004281,
+          "directional_return": -0.004281,
+          "favorable_pct": 0.009418,
+          "adverse_pct": -0.028682,
+          "end_date": "2026-05-22",
+          "end_close": 23.46
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.007277,
+          "directional_return": -0.007277,
+          "favorable_pct": 0.041524,
+          "adverse_pct": -0.028682,
+          "end_date": "2026-05-26",
+          "end_close": 23.53
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.023116,
+          "directional_return": 0.023116,
+          "favorable_pct": 0.059503,
+          "adverse_pct": -0.056507,
+          "end_date": "2026-05-28",
+          "end_close": 22.82
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-20",
+      "price": 18.87,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.009539,
+          "directional_return": 0.009539,
+          "favorable_pct": 0.010069,
+          "adverse_pct": -0.048225,
+          "end_date": "2026-05-21",
+          "end_close": 18.69
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.012189,
+          "directional_return": -0.012189,
+          "favorable_pct": 0.022258,
+          "adverse_pct": -0.048225,
+          "end_date": "2026-05-25",
+          "end_close": 19.1
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.045045,
+          "directional_return": 0.045045,
+          "favorable_pct": 0.054584,
+          "adverse_pct": -0.048225,
+          "end_date": "2026-05-27",
+          "end_close": 18.02
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": true
+        }
+      }
+    },
+    {
+      "symbol": "600114.SH",
+      "name": "东睦股份",
+      "date": "2026-05-18",
+      "price": 32.11,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.051697,
+          "directional_return": -0.051697,
+          "favorable_pct": 0.015883,
+          "adverse_pct": -0.061663,
+          "end_date": "2026-05-19",
+          "end_close": 33.77
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.088757,
+          "directional_return": -0.088757,
+          "favorable_pct": 0.015883,
+          "adverse_pct": -0.137029,
+          "end_date": "2026-05-21",
+          "end_close": 34.96
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.216443,
+          "directional_return": -0.216443,
+          "favorable_pct": 0.015883,
+          "adverse_pct": -0.223606,
+          "end_date": "2026-05-25",
+          "end_close": 39.06
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.0981,
+          "directional_return": -0.0981,
+          "favorable_pct": 0.015883,
+          "adverse_pct": -0.253504,
+          "end_date": "2026-06-01",
+          "end_close": 35.26
+        }
+      }
+    },
+    {
+      "symbol": "301626.SZ",
+      "name": "苏州天脉",
+      "date": "2026-05-18",
+      "price": 270.28,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.01258,
+          "directional_return": -0.01258,
+          "favorable_pct": 0.034039,
+          "adverse_pct": -0.016871,
+          "end_date": "2026-05-19",
+          "end_close": 273.68
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.025233,
+          "directional_return": -0.025233,
+          "favorable_pct": 0.034039,
+          "adverse_pct": -0.117323,
+          "end_date": "2026-05-21",
+          "end_close": 277.1
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.146848,
+          "directional_return": -0.146848,
+          "favorable_pct": 0.034039,
+          "adverse_pct": -0.159908,
+          "end_date": "2026-05-25",
+          "end_close": 309.97
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.19058,
+          "directional_return": -0.19058,
+          "favorable_pct": 0.034039,
+          "adverse_pct": -0.319668,
+          "end_date": "2026-06-01",
+          "end_close": 321.79
+        }
+      }
+    },
+    {
+      "symbol": "300835.SZ",
+      "name": "龙磁科技",
+      "date": "2026-05-18",
+      "price": 109.35,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.035848,
+          "directional_return": -0.035848,
+          "favorable_pct": 0.017101,
+          "adverse_pct": -0.039323,
+          "end_date": "2026-05-19",
+          "end_close": 113.27
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.10791,
+          "directional_return": -0.10791,
+          "favorable_pct": 0.017101,
+          "adverse_pct": -0.17476,
+          "end_date": "2026-05-21",
+          "end_close": 121.15
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.55647,
+          "directional_return": -0.55647,
+          "favorable_pct": 0.017101,
+          "adverse_pct": -0.55647,
+          "end_date": "2026-05-25",
+          "end_close": 170.2
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.561957,
+          "directional_return": -0.561957,
+          "favorable_pct": 0.017101,
+          "adverse_pct": -0.765066,
+          "end_date": "2026-06-01",
+          "end_close": 170.8
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-18",
+      "price": 19.38,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.050052,
+          "directional_return": 0.050052,
+          "favorable_pct": 0.071723,
+          "adverse_pct": -0.014448,
+          "end_date": "2026-05-19",
+          "end_close": 20.35
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.035604,
+          "directional_return": -0.035604,
+          "favorable_pct": 0.071723,
+          "adverse_pct": -0.03612,
+          "end_date": "2026-05-21",
+          "end_close": 18.69
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.014448,
+          "directional_return": -0.014448,
+          "favorable_pct": 0.071723,
+          "adverse_pct": -0.047988,
+          "end_date": "2026-05-25",
+          "end_close": 19.1
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.131579,
+          "directional_return": -0.131579,
+          "favorable_pct": 0.071723,
+          "adverse_pct": -0.140867,
+          "end_date": "2026-06-01",
+          "end_close": 16.83
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-18",
+      "price": 18.64,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.006438,
+          "directional_return": -0.006438,
+          "favorable_pct": 0.016094,
+          "adverse_pct": -0.011803,
+          "end_date": "2026-05-19",
+          "end_close": 18.76
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.004828,
+          "directional_return": 0.004828,
+          "favorable_pct": 0.016094,
+          "adverse_pct": -0.027361,
+          "end_date": "2026-05-21",
+          "end_close": 18.55
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.020923,
+          "directional_return": 0.020923,
+          "favorable_pct": 0.026288,
+          "adverse_pct": -0.027361,
+          "end_date": "2026-05-25",
+          "end_close": 18.25
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.241953,
+          "directional_return": 0.241953,
+          "favorable_pct": 0.241953,
+          "adverse_pct": -0.027361,
+          "end_date": "2026-06-01",
+          "end_close": 14.13
+        }
+      }
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "date": "2026-05-15",
+      "price": 26.92,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.005944,
+          "directional_return": 0.005944,
+          "favorable_pct": 0.015602,
+          "adverse_pct": -0.005944,
+          "end_date": "2026-05-18",
+          "end_close": 26.76
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.008544,
+          "directional_return": 0.008544,
+          "favorable_pct": 0.015602,
+          "adverse_pct": -0.016716,
+          "end_date": "2026-05-20",
+          "end_close": 26.69
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.033432,
+          "directional_return": 0.033432,
+          "favorable_pct": 0.042719,
+          "adverse_pct": -0.016716,
+          "end_date": "2026-05-22",
+          "end_close": 26.02
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.058321,
+          "directional_return": 0.058321,
+          "favorable_pct": 0.062779,
+          "adverse_pct": -0.016716,
+          "end_date": "2026-05-29",
+          "end_close": 25.35
+        }
+      }
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "date": "2026-05-15",
+      "price": 35.87,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.019515,
+          "directional_return": -0.019515,
+          "favorable_pct": 0.015054,
+          "adverse_pct": -0.031503,
+          "end_date": "2026-05-18",
+          "end_close": 36.57
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.004182,
+          "directional_return": -0.004182,
+          "favorable_pct": 0.015054,
+          "adverse_pct": -0.031503,
+          "end_date": "2026-05-20",
+          "end_close": 36.02
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.022024,
+          "directional_return": -0.022024,
+          "favorable_pct": 0.038193,
+          "adverse_pct": -0.039587,
+          "end_date": "2026-05-22",
+          "end_close": 36.66
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.122386,
+          "directional_return": -0.122386,
+          "favorable_pct": 0.038193,
+          "adverse_pct": -0.194592,
+          "end_date": "2026-05-29",
+          "end_close": 40.26
+        }
+      }
+    },
+    {
+      "symbol": "002611.SZ",
+      "name": "东方精工",
+      "date": "2026-05-14",
+      "price": 17.91,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.026801,
+          "directional_return": -0.026801,
+          "favorable_pct": 0.011725,
+          "adverse_pct": -0.06086,
+          "end_date": "2026-05-15",
+          "end_close": 18.39
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.136237,
+          "directional_return": -0.136237,
+          "favorable_pct": 0.011725,
+          "adverse_pct": -0.159687,
+          "end_date": "2026-05-19",
+          "end_close": 20.35
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": 0.043551,
+          "directional_return": -0.043551,
+          "favorable_pct": 0.011725,
+          "adverse_pct": -0.159687,
+          "end_date": "2026-05-21",
+          "end_close": 18.69
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.009492,
+          "directional_return": 0.009492,
+          "favorable_pct": 0.033501,
+          "adverse_pct": -0.159687,
+          "end_date": "2026-05-28",
+          "end_close": 17.74
+        }
+      }
+    },
+    {
+      "symbol": "300638.SZ",
+      "name": "广和通",
+      "date": "2026-05-13",
+      "price": 24.8,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.029435,
+          "directional_return": -0.029435,
+          "favorable_pct": 0.000806,
+          "adverse_pct": -0.031855,
+          "end_date": "2026-05-14",
+          "end_close": 24.07
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.002016,
+          "directional_return": -0.002016,
+          "favorable_pct": 0.010484,
+          "adverse_pct": -0.049194,
+          "end_date": "2026-05-18",
+          "end_close": 24.75
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.025806,
+          "directional_return": -0.025806,
+          "favorable_pct": 0.015726,
+          "adverse_pct": -0.049194,
+          "end_date": "2026-05-20",
+          "end_close": 24.16
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.070161,
+          "directional_return": -0.070161,
+          "favorable_pct": 0.015726,
+          "adverse_pct": -0.097177,
+          "end_date": "2026-05-27",
+          "end_close": 23.06
+        }
+      }
+    },
+    {
+      "symbol": "600089.SH",
+      "name": "特变电工",
+      "date": "2026-05-12",
+      "price": 28.94,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.006565,
+          "directional_return": 0.006565,
+          "favorable_pct": 0.025225,
+          "adverse_pct": -0.013822,
+          "end_date": "2026-05-13",
+          "end_close": 29.13
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.0698,
+          "directional_return": -0.0698,
+          "favorable_pct": 0.025225,
+          "adverse_pct": -0.073601,
+          "end_date": "2026-05-15",
+          "end_close": 26.92
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.059433,
+          "directional_return": -0.059433,
+          "favorable_pct": 0.025225,
+          "adverse_pct": -0.084312,
+          "end_date": "2026-05-19",
+          "end_close": 27.22
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.100553,
+          "directional_return": -0.100553,
+          "favorable_pct": 0.025225,
+          "adverse_pct": -0.109537,
+          "end_date": "2026-05-26",
+          "end_close": 26.03
+        }
+      }
+    },
+    {
+      "symbol": "002214.SZ",
+      "name": "*ST大立",
+      "date": "2026-05-08",
+      "price": 19.16,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.015136,
+          "directional_return": -0.015136,
+          "favorable_pct": 0.009916,
+          "adverse_pct": -0.022965,
+          "end_date": "2026-05-11",
+          "end_close": 18.87
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.029749,
+          "directional_return": 0.029749,
+          "favorable_pct": 0.037056,
+          "adverse_pct": -0.023486,
+          "end_date": "2026-05-13",
+          "end_close": 19.73
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.005741,
+          "directional_return": -0.005741,
+          "favorable_pct": 0.051148,
+          "adverse_pct": -0.023486,
+          "end_date": "2026-05-15",
+          "end_close": 19.05
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.029749,
+          "directional_return": -0.029749,
+          "favorable_pct": 0.051148,
+          "adverse_pct": -0.042797,
+          "end_date": "2026-05-22",
+          "end_close": 18.59
+        }
+      }
+    },
+    {
+      "symbol": "001203.SZ",
+      "name": "大中矿业",
+      "date": "2026-05-08",
+      "price": 47.2,
+      "side": "sell",
+      "label": "SATS翻空",
+      "field": "sats_flip_down",
+      "condition": "sats_flip_down=1",
+      "direction": "bearish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.016949,
+          "directional_return": 0.016949,
+          "favorable_pct": 0.040466,
+          "adverse_pct": -0.025424,
+          "end_date": "2026-05-11",
+          "end_close": 46.4
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.061441,
+          "directional_return": 0.061441,
+          "favorable_pct": 0.074576,
+          "adverse_pct": -0.025424,
+          "end_date": "2026-05-13",
+          "end_close": 44.3
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.102331,
+          "directional_return": 0.102331,
+          "favorable_pct": 0.106992,
+          "adverse_pct": -0.025424,
+          "end_date": "2026-05-15",
+          "end_close": 42.37
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": true,
+          "raw_return": -0.152966,
+          "directional_return": 0.152966,
+          "favorable_pct": 0.191314,
+          "adverse_pct": -0.025424,
+          "end_date": "2026-05-22",
+          "end_close": 39.98
+        }
+      }
+    },
+    {
+      "symbol": "301132.SZ",
+      "name": "满坤科技",
+      "date": "2026-05-07",
+      "price": 39.91,
+      "side": "buy",
+      "label": "SATS翻多",
+      "field": "sats_flip_up",
+      "condition": "sats_flip_up=1",
+      "direction": "bullish",
+      "outcomes": {
+        "1d": {
+          "horizon": 1,
+          "pending": false,
+          "hit": true,
+          "raw_return": 0.005011,
+          "directional_return": 0.005011,
+          "favorable_pct": 0.011025,
+          "adverse_pct": -0.024054,
+          "end_date": "2026-05-08",
+          "end_close": 40.11
+        },
+        "3d": {
+          "horizon": 3,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.029567,
+          "directional_return": -0.029567,
+          "favorable_pct": 0.012027,
+          "adverse_pct": -0.042596,
+          "end_date": "2026-05-12",
+          "end_close": 38.73
+        },
+        "5d": {
+          "horizon": 5,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.070158,
+          "directional_return": -0.070158,
+          "favorable_pct": 0.012027,
+          "adverse_pct": -0.072162,
+          "end_date": "2026-05-14",
+          "end_close": 37.11
+        },
+        "10d": {
+          "horizon": 10,
+          "pending": false,
+          "hit": false,
+          "raw_return": -0.1333,
+          "directional_return": -0.1333,
+          "favorable_pct": 0.012027,
+          "adverse_pct": -0.135555,
+          "end_date": "2026-05-21",
+          "end_close": 34.59
+        }
+      }
+    }
+  ],
+  "analysis": [
+    "过去两个月 5 日方向命中率中性偏可用，但仍需要成交量、支撑压力和老师事件配合。",
+    "5 日命中率=52.4%，平均方向收益=-1.16%；这个口径只评价信号后走势，不代表未来保证。",
+    "如果某只股票只有 1-2 个信号，样本太少，不要过度拟合。"
+  ],
+  "failure_analysis": [
+    "信号后 5 日平均最大反向波动约 -7.31%，说明止损/仓位控制比信号本身更重要。",
+    "公告、停复牌、ST/摘帽、老师观点更新、板块情绪突变，可能让技术指标失效。",
+    "横盘震荡会让趋势/结构类指标反复打脸；强趋势会让震荡指标过早提示超买或超卖。"
+  ],
+  "skipped": []
+}

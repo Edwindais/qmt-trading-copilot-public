@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "001203.SZ",
+    "name": "大中矿业",
+    "groups": [
+      "advisor"
+    ],
+    "close": 37.66,
+    "trend": "mixed",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "002214.SZ",
+    "name": "*ST大立",
+    "groups": [
+      "advisor"
+    ],
+    "close": 14.13,
+    "trend": "downtrend",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "002632.SZ",
+    "name": "道明光学",
+    "groups": [
+      "watchlist"
+    ],
+    "close": 10.35,
+    "trend": "downtrend",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "300835.SZ",
+    "name": "龙磁科技",
+    "groups": [
+      "advisor"
+    ],
+    "close": 170.8,
+    "trend": "uptrend",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "301626.SZ",
+    "name": "苏州天脉",
+    "groups": [
+      "advisor"
+    ],
+    "close": 321.79,
+    "trend": "uptrend",
+    "supertrendDir": "1"
+  },
+  {
+    "symbol": "600089.SH",
+    "name": "特变电工",
+    "groups": [
+      "advisor"
+    ],
+    "close": 26.46,
+    "trend": "downtrend",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "600114.SH",
+    "name": "东睦股份",
+    "groups": [
+      "advisor"
+    ],
+    "close": 35.26,
+    "trend": "mixed",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "603156.SH",
+    "name": "养元饮品",
+    "groups": [
+      "advisor"
+    ],
+    "close": 41.93,
+    "trend": "mixed",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "002611.SZ",
+    "name": "东方精工",
+    "groups": [
+      "watchlist"
+    ],
+    "close": 16.83,
+    "trend": "mixed",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "300638.SZ",
+    "name": "广和通",
+    "groups": [
+      "advisor"
+    ],
+    "close": 23.28,
+    "trend": "downtrend",
+    "supertrendDir": "1"
+  },
+  {
+    "symbol": "300984.SZ",
+    "name": "金沃股份",
+    "groups": [
+      "watchlist"
+    ],
+    "close": 56.26,
+    "trend": "mixed",
+    "supertrendDir": "-1"
+  },
+  {
+    "symbol": "301132.SZ",
+    "name": "满坤科技",
+    "groups": [
+      "advisor"
+    ],
+    "close": 39.45,
+    "trend": "mixed",
+    "supertrendDir": "1"
+  }
+]
